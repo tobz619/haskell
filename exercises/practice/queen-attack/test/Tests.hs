@@ -55,6 +55,16 @@ specs = do
                            , "_ _ _ _ _ _ _ _"
                            , "_ _ _ _ _ _ B _"
                            , "_ _ _ _ _ _ _ _" ]
+                           
+      it "board with queen(s) in rightmost column" $ boardString (Just (0, 7)) (Just (5,7))
+        `shouldBe` unlines [ "_ _ _ _ _ _ _ W"
+                           , "_ _ _ _ _ _ _ _"
+                           , "_ _ _ _ _ _ _ _"
+                           , "_ _ _ _ _ _ _ _"
+                           , "_ _ _ _ _ _ _ _"
+                           , "_ _ _ _ _ _ _ B"
+                           , "_ _ _ _ _ _ _ _"
+                           , "_ _ _ _ _ _ _ _" ]
 
     -- The function described by the reference file as `create` doesn't
     -- exist in this track, so only the `canAttack` test cases were
@@ -71,6 +81,7 @@ specs = do
                   , ("can attack on first diagonal" , (2, 2), (0, 4), True )
                   , ("can attack on second diagonal", (2, 2), (3, 1), True )
                   , ("can attack on third diagonal" , (2, 2), (1, 1), True )
-                  , ("can attack on fourth diagonal", (2, 2), (5, 5), True ) ]
+                  , ("can attack on fourth diagonal", (2, 2), (5, 5), True ) 
+                  , ("can attack in right corner"   , (0, 7), (5, 7), True )  ]
 
       for_ cases test
