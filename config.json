@@ -123,6 +123,30 @@
         ]
       },
       {
+        "slug": "reverse-string",
+        "name": "Reverse String",
+        "uuid": "8ed8f6d7-ee0a-4d61-99b5-c8b86f01c5de",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 1,
+        "topics": [
+          "strings",
+          "lists"
+        ]
+      },
+      {
+        "slug": "darts",
+        "name": "Darts",
+        "uuid": "6f372bfc-3abc-4a86-a164-267837bf9f14",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 1,
+        "topics": [
+          "math",
+          "number_theory"
+        ]
+      },
+      {
         "slug": "space-age",
         "name": "Space Age",
         "uuid": "6cbb7841-9d96-4528-88e3-6e98a450fd7c",
@@ -478,6 +502,28 @@
         ]
       },
       {
+        "slug": "knapsack",
+        "name": "Knapsack",
+        "uuid": "1be3e783-d240-4a4b-bb45-ff2ce4d36374",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 7,
+        "topics": [
+          "algorithms"
+        ]
+      },
+      {
+        "slug": "satellite",
+        "name": "Satellite",
+        "uuid": "22136812-8160-49f0-8a0d-f76a2086a34c",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 6,
+        "topics": [
+          "maybe"
+        ]
+      },
+      {
         "slug": "go-counting",
         "name": "Go Counting",
         "uuid": "8f1854d7-b8cb-4dfa-9e6a-8811b0891798",
@@ -658,6 +704,18 @@
         "difficulty": 5,
         "topics": [
           "lists"
+        ]
+      },
+      {
+        "slug": "affine-cipher",
+        "name": "Affine Cipher",
+        "uuid": "31d1b9b8-558c-46ee-8d11-c2217ad5fd77",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 6,
+        "topics": [
+          "algorithms",
+          "strings"
         ]
       },
       {
@@ -1088,6 +1146,19 @@
         "slug": "complex-numbers",
         "name": "Complex Numbers",
         "uuid": "4e10e864-2fe4-4926-b908-f70645698999",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 3,
+        "topics": [
+          "define_type",
+          "math",
+          "number_theory"
+        ]
+      },
+      {
+        "slug": "rational-numbers",
+        "name": "Rational Numbers",
+        "uuid": "b4426fe9-2e49-48c5-9dea-c86032009687",
         "practices": [],
         "prerequisites": [],
         "difficulty": 3,
